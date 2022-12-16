@@ -1,0 +1,25 @@
+#galerie{}
+
+.fig__galerie{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.fig__galerie figure{
+    flex: 0 1 150px;
+}
+.fig__galerie img{
+   
+filter:  brightness(0.7) contrast(1.3) grayscale(0.31) saturate(1.6);
+}
+
+.fig__galerie figure:nth-of-type(){
+    transform: rotate();
+}
+
+.fig__galerie figure:nth-of-type(){}
+
+.fig__galerie figure:nth-of-type(){}
+
+.fig__galerie figure:nth-of-type(){}
